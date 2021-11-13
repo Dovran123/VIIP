@@ -1,0 +1,179 @@
+.nic{
+    justify-content: space-between;
+    padding-left: 15%;
+}
+.nic h1{
+    padding: 2em 0;
+    font-weight: bold;
+}
+.obrazok-blok img{
+    width: 100%;
+    display: flex;
+}
+.text-blok{
+    justify-content: space-between;
+    display: flex;
+}
+
+.text-blok p{
+    font-size: 20px;
+    padding: 30px 0;
+
+}
+
+.blok-obrazky {
+    padding: 0 5%;
+    display: flex;
+}
+.speci .oby img {
+    height: 300px;
+    width: 300px;
+}
+.ini img {
+    width: 100%;
+}
+.oby div{
+
+}
+.oby {
+    display: flex;
+    padding: 10px 0;
+}
+.medzery {
+    padding: 0 20px;
+}
+.speci {
+
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    margin: 40px 0 ;
+}
+.joing {
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+    padding-bottom: 60px;
+}
+.tlacidlo {
+
+     background-color: #0c63e4;
+ text-decoration: none;
+    color: white;
+    font-weight: bold;
+     border-radius: 20px;
+    padding: 10px 10px;
+
+        margin-left: 20%;
+     border: none;
+ }
+.tlacidlo:hover {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+}
+.tlacidlo a{
+    margin-top: 5em;
+    padding: 30px 5px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+.ohranicenie{
+    padding: 6em 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.pouzivatel {
+    padding: 75px 0;
+}
+.pouzivatel ul  {
+    display: flex;
+    text-decoration: none;
+    margin-left: -2rem;
+}
+.pouzivatel ul li {
+    display: flex;
+    text-decoration: none;
+    padding-right: 20px;
+}
+.pouzivatel img {
+    height: 25px;
+}
+.text-mis {
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.text-mis h1{
+    font-weight: bold;
+    padding-bottom: 50px;
+
+}
+.text-mis p{
+    font-size: 20px;
+
+}
+.blok-blok{
+    margin: 40px 0;
+    border-top: 3px solid #ccc;
+    border-bottom: 3px solid #ccc;
+}
+.blok-blok p{
+    padding: 60px 0;
+    text-align: center;
+    font-size: 35px;
+    color: #6c757d;
+}
+@media screen and (max-width: 1350px) {
+
+
+    .speci .oby img {
+        width: 250px;
+        height: 250px;
+    }
+}
+@media screen and (max-width: 1150px) {
+
+
+    .speci .oby img {
+        width: 200px;
+        height: 200px;
+    }
+}
+@media screen and (max-width: 850px) {
+
+
+    .speci .oby img {
+        width: 225px;
+        height: 225px;
+    }
+    .oby {
+        flex-direction: column;
+    }
+    .speci {
+        display: flex;
+    }
+    .medzery {
+        padding: 5px 0;
+    }
+}
+@media screen and (max-width: 680px) {
+
+
+    .speci .oby img {
+        width: 200px;
+        height: 200px;
+    }
+
+}
+@media screen and (max-width: 600px) {
+
+
+    .speci .oby img {
+        width: 150px;
+        height: 150px;
+    }
+
+}
